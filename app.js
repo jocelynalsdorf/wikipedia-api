@@ -5,7 +5,7 @@ $(document).ready(function(){
     var html = "";
     e.preventDefault();
 //get term to search wikipedia for
-    var userInput = $("#userInfo").val();
+    var userInput = encodeURIComponent($("#userInfo").val());
 
     $.getJSON("https://en.wikipedia.org/w/api.php?format=json&callback=?&action=query&generator=search&gsrnamespace=0&gsrsearch=" + userInput + "&gsrlimit=20&prop=info&inprop=url&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max", function(data) {
       x = data["query"].pages;
