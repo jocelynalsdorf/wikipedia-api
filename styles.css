@@ -1,3 +1,35 @@
-ul {
+li {
   list-style: none;
+}
+span.mdl-layout-title {
+  font-size: 34px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: rgb(255,82,82);
+
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.img-container img {
+  height:350px;
+  width:350px;
+  padding-top: 35px;
+}
+
+.mdl-grid {
+  padding-top:32px;
+}
+
+.message {
+  padding-top: 3px;
+}
+
+.click-message {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color:rgb(205,220,57);
 }

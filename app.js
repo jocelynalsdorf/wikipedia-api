@@ -11,7 +11,7 @@ $(document).ready(function(){
       x = data["query"].pages;
 //get the data we need from the response
         for(var prop in x) {
-          html += "<li class='result-list-item'><h3 class='title'><a href='" +  x[prop].fullurl + "'>" + x[prop].title + " </a></h3></li>"          
+          html += "<li class='result-list-item'><h4 class='title'><a href='" +  x[prop].fullurl + "'>" + x[prop].title + " </a></h4></li>"          
         }
         
 //show content on view
